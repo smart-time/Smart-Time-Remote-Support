@@ -19,7 +19,7 @@
     <body>
         <header>
             <img id='logo' src='/images/logo.png'>
-            <span id='logotitle'>Remote support</span>
+            <span id='logotitle'>@lang('lang.remote_support')</span>
         </header>
         <main>
             @yield('content')
