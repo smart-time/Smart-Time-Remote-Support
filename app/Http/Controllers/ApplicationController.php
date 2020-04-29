@@ -10,6 +10,8 @@ class ApplicationController extends Controller{
             return view('application.takecontrol');
         }elseif($application == 'teamviewer'){
             return redirect('https://get.teamviewer.com/smarttime');
+        }elseif($application == 'datto'){
+            return redirect('https://merlot.centrastage.net/csm/profile/downloadAgent/08563c7a-2087-4f3f-a410-6fd7cd8bd423');
         }else{
             abort(404);
         }
